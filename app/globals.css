@@ -17,11 +17,18 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: gray;
+  
+}
+.container{
+  max-width: 960px;
+  margin:20px auto;
+  background-color: white;
+  padding:40px
+}
+h1{
+  font-size: 30px;
+}
+input{
+  border: 1px solid #ccc;
 }
